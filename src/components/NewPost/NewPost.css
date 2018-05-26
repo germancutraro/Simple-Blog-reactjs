@@ -1,0 +1,54 @@
+.New-Post-Wrapper {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  flex-direction: column;
+} 
+
+.New-Post-Title {
+  padding: 1.3rem;
+}
+
+input[type="text"], textarea {
+  display: block;
+  padding: 10px;
+  margin: 1rem;
+  height: 80px;
+  width: 90%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #D9D9D9;
+  outline: none;
+  font-size: 1rem;
+  transition: .5s ease all;
+}
+
+textarea {
+  font-size: 1.3rem;
+  height: 9rem;
+  resize: none;
+}
+
+input[type="text"]:focus, textarea:focus {
+  border-bottom-color:lightblue;
+}
+
+input[type="submit"] {
+  height: 38px;
+  padding: 0 30px;
+  margin: 1rem;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}

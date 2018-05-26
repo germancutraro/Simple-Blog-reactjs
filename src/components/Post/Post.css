@@ -1,0 +1,12 @@
+.Post {
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: .5s ease all;
+}
+
+.Post:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
